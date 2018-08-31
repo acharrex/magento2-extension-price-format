@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Shopigo. All rights reserved.
+ * See LICENSE.txt for license details (http://opensource.org/licenses/osl-3.0.php).
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="shopigo" translate="label" sortOrder="500" class="shopigo-extensions">
+            <label>Shopigo Extensions</label>
+        </tab>
+        <section id="shopigo_priceformat" translate="label" type="text" sortOrder="25" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Price Format</label>
+            <tab>shopigo</tab>
+            <resource>Shopigo_PriceFormat::config</resource>
+            <group id="general" translate="label" type="select" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Settings</label>
+                <field id="enabled" translate="label" type="select" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="formats" translate="label" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Price Format</label>
+                    <frontend_model>Shopigo\PriceFormat\Block\Adminhtml\Form\Field\PriceFormat</frontend_model>
+                    <backend_model>Shopigo\PriceFormat\Model\System\Config\Backend\PriceFormat</backend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

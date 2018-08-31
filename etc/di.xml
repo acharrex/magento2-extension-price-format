@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Shopigo. All rights reserved.
+ * See LICENSE.txt for license details (http://opensource.org/licenses/osl-3.0.php).
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Directory\Model\Currency">
+        <plugin name="shopigo_priceformat_directory_currency" type="Shopigo\PriceFormat\Plugin\Directory\Model\CurrencyPlugin" sortOrder="10"/>
+    </type>
+    <type name="Magento\Framework\Currency">
+        <plugin name="shopigo_priceformat_framework_currency" type="Shopigo\PriceFormat\Plugin\Framework\CurrencyPlugin" sortOrder="10"/>
+    </type>
+    <type name="Magento\Framework\Locale\Format">
+        <plugin name="shopigo_priceformat_framework_locale_format" type="Shopigo\PriceFormat\Plugin\Framework\Locale\FormatPlugin" sortOrder="10"/>
+    </type>
+</config>
