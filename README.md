@@ -2,11 +2,17 @@
 
 # Magento 2 Price Format extension by [Shopigo](https://www.shopigo.ch)
 
-DESCRIPTION
+This extension adds a feature which allow to configure the display format of prices and subtotals.
 
-BLOG LINK
+Price display settings (thousand separator, decimal separator, symbol position) can be configured per currency and per store.
 
-SCREENSHOT
+More information available at [Shopigo Blog](https://www.shopigo.ch/blog/extension-magento-2-format-affichage-prix) (in french).
+
+![](https://www.shopigo.ch/wp-content/uploads/2018/09/github-extension-price-format-settings.jpg)
+
+Example:
+
+![](https://www.shopigo.ch/wp-content/uploads/2018/09/github-extension-price-format-display.jpg)
 
 ## Requirements
 
@@ -17,7 +23,7 @@ Magento Open Source Edition 2.2.x.
 ## Method 1 - Installing via composer
 
 - Switch to your Magento project root
-- Run `composer require shopigo/magento2-extension-price-format=dev-master`
+- Run `composer require shopigo/magento2-extension-price-format`
 
 ## Method 2 - Installing using archive
 
@@ -39,7 +45,13 @@ php bin/magento setup:static-content:deploy
 
 ## How to use it
 
-TODO
+- Log into your Magento back-office
+- Go to the menu "Stores > Configuration > Shopigo Extensions > Price Format"
+- Configure your formats in the field "Price Format"
+- Set the parameter "Enabled" to "Yes"
+- Flush Magento caches from the menu "System > Tools > Cache Management"
+
+Note: to customize currency symbols, go to the menu "Stores > Currency > Currency Symbols".
 
 ## Support
 
@@ -49,9 +61,14 @@ If you have any issues, open a bug report in GitHub's [issue tracker](https://gi
 
 Please contact us to get a quote https://www.shopigo.ch/contact
 
+## Change logs
+
+**Version 1.0.0** (2018-09-04)
+- First version
+
 ## License
 
 The code is licensed under [Open Software License ("OSL") v. 3.0](http://opensource.org/licenses/osl-3.0.php).
 
-Enjoy!<br/>
+<br/>Enjoy!<br/>
 [Shopigo](https://www.shopigo.ch)
