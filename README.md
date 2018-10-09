@@ -61,7 +61,7 @@ Please contact us to get a quote https://www.shopigo.ch/contact
 
 ## Change logs
 
-**Version 1.0.1** (2010-10-09)
+**Version 1.0.1** (2018-10-09)
 - Fix composer.json for Magento 2.2.0-2.2.5
 
 **Version 1.0.0** (2018-09-04)
