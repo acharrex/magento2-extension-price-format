@@ -6,7 +6,6 @@
 
 namespace Shopigo\PriceFormat\Helper;
 
-use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;
 use Magento\Framework\Math\Random as MathRandom;
@@ -21,28 +20,18 @@ class Data extends AbstractHelper
     const XML_PATH_CURRENY_FORMAT = 'shopigo_priceformat/general/formats';
 
     /**
-     * Core store config
-     *
-     * @var ScopeConfigInterface
-     */
-    protected $scopeConfig;
-
-    /**
      * @var MathRandom
      */
     protected $mathRandom;
 
     /**
      * @param Context $context
-     * @param ScopeConfigInterface $scopeConfig
      * @param MathRandom $mathRandom
      */
     public function __construct(
         Context $context,
-        ScopeConfigInterface $scopeConfig,
         MathRandom $mathRandom
     ) {
-        $this->scopeConfig = $scopeConfig;
         $this->mathRandom = $mathRandom;
         parent::__construct($context);
     }
