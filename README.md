@@ -61,6 +61,9 @@ Please contact us to get a quote https://www.shopigo.ch/contact
 
 ## Change logs
 
+**Version 1.0.2** (2018-11-15)
+- [Issue #5: Issue in Magento 2.1](https://github.com/shopigo/magento2-extension-price-format/issues/5)
+
 **Version 1.0.1** (2018-10-09)
 - Fix composer.json for Magento 2.2.0-2.2.5
 
