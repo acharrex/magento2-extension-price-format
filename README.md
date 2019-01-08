@@ -55,10 +55,6 @@ Note: to customize currency symbols, go to the menu "Stores > Currency > Currenc
 
 If you have any issues, open a bug report in GitHub's [issue tracker](https://github.com/shopigo/magento2-extension-price-format/issues).
 
-## Need more features?
-
-Please contact us to get a quote https://www.shopigo.ch/contact
-
 ## Change logs
 
 **Version 1.0.2** (2018-11-15)
