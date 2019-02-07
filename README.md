@@ -1,20 +1,20 @@
-[![Shopigo](https://www.shopigo.ch/wp-content/uploads/2018/08/github-shopigo-logo.png)](https://www.shopigo.ch)
+![Shopigo](https://i.imgur.com/7Ctkn7X.png)
 
-# Magento 2 Price Format extension by [Shopigo](https://www.shopigo.ch)
+# Magento 2 Price Format extension by Shopigo
 
 This extension adds a feature which allow to configure the display format of prices and subtotals.
 
 Price display settings (thousand separator, decimal separator, symbol position) can be configured per currency and per store.
 
-![](https://www.shopigo.ch/wp-content/uploads/2018/09/github-extension-price-format-settings.jpg)
+![](https://i.imgur.com/zKoA7iq.jpg)
 
 Example:
 
-![](https://www.shopigo.ch/wp-content/uploads/2018/09/github-extension-price-format-display.jpg)
+![](https://i.imgur.com/MBObwN3.jpg)
 
 ## Requirements
 
-Magento Open Source Edition 2.2.x.
+Magento Open Source Edition 2.2 or 2.3
 
 ## Installation
 
@@ -25,7 +25,7 @@ Magento Open Source Edition 2.2.x.
 
 ## Method 2 - Installing using archive
 
-- Download [ZIP Archive](https://github.com/shopigo/magento2-extension-price-format/archive/master.zip)
+- Download [ZIP Archive](https://github.com/acharrex/magento2-extension-price-format/archive/master.zip)
 - Switch to your Magento project root
 - Create folder `app/code/Shopigo/PriceFormat`
 - Extract zip into path
@@ -53,12 +53,15 @@ Note: to customize currency symbols, go to the menu "Stores > Currency > Currenc
 
 ## Support
 
-If you have any issues, open a bug report in GitHub's [issue tracker](https://github.com/shopigo/magento2-extension-price-format/issues).
+If you have any issues, open a bug report in GitHub's [issue tracker](https://github.com/acharrex/magento2-extension-price-format/issues).
 
 ## Change logs
 
+**Version 1.0.3** (2019-02-07)
+- Fix composer.json for Magento 2.3
+
 **Version 1.0.2** (2018-11-15)
-- [Issue #5: Issue in Magento 2.1](https://github.com/shopigo/magento2-extension-price-format/issues/5)
+- [Issue #5: Issue in Magento 2.1](https://github.com/acharrex/magento2-extension-price-format/issues/5)
 
 **Version 1.0.1** (2018-10-09)
 - Fix composer.json for Magento 2.2.0-2.2.5
@@ -70,5 +73,4 @@ If you have any issues, open a bug report in GitHub's [issue tracker](https://gi
 
 The code is licensed under [Open Software License ("OSL") v. 3.0](http://opensource.org/licenses/osl-3.0.php).
 
-<br/>Enjoy!<br/>
-[Shopigo](https://www.shopigo.ch)
+<br/>Enjoy!
